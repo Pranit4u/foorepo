@@ -1,0 +1,25 @@
+export const GET_RESPONSE_ENDPOINT = 'http://127.0.0.1:5003/getAgentResponse'
+export const GET_EMBEDDINGS_ENDPOINT = 'http://127.0.0.1:5003/getEmbeddingsFromFile'
+export const GET_SUGGESTED_TEXT_ENDPOINT = 'http://127.0.0.1:5003/getSuggestedText'
+export const GET_REFACTOR_TEXT_ENDPOINT = 'http://127.0.0.1:5003/getRefactoredText'
+
+export const GET_USER_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/getUser'
+export const GET_CHATS_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/getChats'
+export const GET_MESSAGES_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/getMessages'
+export const GET_FILE_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/getFile'
+export const GET_FILES_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/getFiles'
+
+export const DELETE_CHAT_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/deleteChat'
+export const DELETE_ALL_CHATS_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/deleteAllChats'
+export const DELETE_FILE_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/deleteFile'
+export const DELETE_ALL_FILES_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/deleteAllFiles'
+export const DELETE_EMBEDDING_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/deleteEmbedding'
+export const DELETE_ALL_EMBEDDINGS_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/deleteAllEmbeddings'
+
+export const ADD_USER_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/addUser'
+export const ADD_CHAT_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/addChat'
+export const ADD_MESSAGE_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/addMessage'
+export const ADD_FILE_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/saveFile'
+export const ADD_EMBEDDING_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/addEmbedding'
+
+export const UPDATE_FILE_ENDPOINT = 'https://container-app-dctda7jtoct4i.bravebush-cfd3e499.eastus2.azurecontainerapps.io/updateFile'
